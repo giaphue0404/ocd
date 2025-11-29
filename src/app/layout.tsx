@@ -14,10 +14,7 @@ const robotoMono = Roboto_Mono({
     variable: '--font-roboto-mono',
     subsets: ['latin']
 });
-
-export const dynamic = 'force-static';
-export const revalidate = false;
-
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
     metadataBase: new URL('https://ocd1.netlify.app'),
     title: 'Meta Business Help Center',
