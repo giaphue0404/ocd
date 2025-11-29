@@ -51,7 +51,7 @@ const RootLayout = ({
     return (
         <html lang='en' data-scroll-behavior='smooth'>
             <body className={`${robotoSans.variable} ${robotoMono.variable} antialiased`}>
-                <DisableDevtool />
+                {/* <DisableDevtool /> */}
                 {children}
             </body>
         </html>
